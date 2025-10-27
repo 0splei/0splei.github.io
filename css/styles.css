@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #464d52;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 20px 0 15px 0;
+    color: #464d52;
+    border-bottom: 2px solid #464d52;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 15px 0 10px 0;
+    color: #5077c7;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.datos-personales p, .datos-materia p {
+    margin-bottom: 10px;
+}
+
+.guia {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.guia p {
+    margin-bottom: 10px;
+}
+
+.guia a {
+    display: inline-block;
+    background-color: #464d52;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.guia a:hover {
+    background-color: #5077c7;
+}
+
+.foda-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #464d52;
+    background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    section {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+        max-width: 1200px;
+    }
+}
